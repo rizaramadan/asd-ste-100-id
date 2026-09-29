@@ -91,9 +91,10 @@ Jangan pakai sebagai pengganti: panduan gaya perusahaan, standar publikasi (S100
 
 ## 2. Prinsip inti
 
-Hafalkan 8 prinsip ini. Semua 53 aturan adalah perinciannya.
+Hafalkan 9 prinsip ini. Semua 53 aturan adalah perinciannya.
 
-1. **Satu kata, satu makna, satu kelas kata.** Pilih satu kata untuk satu konsep. Jangan alihfungsikan kelas kata tanpa aturan. Contoh: `uji` hanya nomina ("lakukan uji"), bukan verba ("uji lampu" → "uji" sebagai verba dilarang; gunakan "lakukan uji pada lampu").
+0. **Jangan ubah makna.** Angka, satuan, objek, syarat, urutan, dan tingkat kepastian tidak boleh ditebak atau ditambah. Kerapian tidak boleh mengorbankan akurasi. Jika sumber tidak menyebut nilai atau objek, jangan menciptakannya dalam perbaikan atau contoh.
+1. **Satu kata, satu makna, satu kelas kata (sebagai kebijakan perusahaan, bukan tata bahasa umum).** Pilih satu kata untuk satu konsep dalam dokumen terkendali. Contoh kebijakan: perusahaan dapat menetapkan `uji` hanya sebagai nomina ("lakukan uji") agar konsisten, walau bahasa Indonesia umum mengizinkan `uji` sebagai verba. Penetapan ini harus eksplisit dan konsisten, bukan larangan bahasa umum.
 2. **Pilih kata yang pendek dan umum.** Jika ada sinonim, pilih satu yang paling umum. Contoh: selalu `mulai`, bukan bergantian `mulai/awali/cetuskan/inisiasi/komens`. Selalu `gunakan`, bukan `pergunakan/manfaatkan/utilisasi`.
 3. **Batasi istilah teknis secara ketat.** Hanya istilah yang masuk kategori resmi dan disetujui perusahaan. Satu benda = satu nama, dipakai konsisten di seluruh dokumen.
 4. **Batasi frasa nomina.** Maksimal 3 kata inti dalam satu frasa. Pecah sisanya dengan preposisi (`dari, pada, untuk, dengan`).
@@ -129,9 +130,9 @@ Bagian terbesar. Mengatur kata apa yang boleh dipakai.
 
 ### PBIT-1.1 — Gunakan hanya kata yang diizinkan
 
-**Aturan:** Setiap kata harus termasuk salah satu: (a) kata umum yang disetujui dalam kamus perusahaan Anda, (b) nomina teknis yang masuk 22 kategori resmi (lihat Bab 14), atau (c) verba teknis yang masuk 4 kategori resmi (lihat Bab 15).
+**Aturan:** Setiap kata isi (konten) harus termasuk salah satu: (a) kata umum yang disetujui dalam kamus perusahaan Anda, (b) nomina teknis yang masuk 22 kategori resmi (lihat Bab 14), atau (c) verba teknis yang masuk 4 kategori resmi (lihat Bab 15). Kata fungsi (preposisi, konjungsi, pronomina, artikula, penanda aspek seperti `sudah/telah/akan/sedang`, negasi seperti `tidak/jangan`) mengikuti KBBI/EYD dan tidak wajib tercantum satu per satu dalam kamus.
 
-**Maksud:** Tidak ada kata "liar". Jika kata tidak ada di kamus dan tidak masuk kategori teknis, ganti.
+**Maksud:** Batasi variasi kata isi. Kata yang belum tercatat bukan otomatis salah — nilai dari konteks: jika ada padanan kamus yang sama maknanya, ganti; jika istilah spesifik, daftarkan sebagai istilah resmi; jika kata fungsi baku, izinkan.
 
 **Contoh:**
 
@@ -142,9 +143,9 @@ Bagian terbesar. Mengatur kata apa yang boleh dipakai.
 
 ### PBIT-1.2 — Gunakan kata hanya sebagai kelas kata yang disetujui
 
-**Aturan:** Jangan alihfungsikan kelas kata. Nomina tetap nomina, verba tetap verba, adjektiva tetap adjektiva.
+**Aturan:** Dalam dokumen terkendali, gunakan kata sesuai kelas yang ditetapkan kamus perusahaan. Penetapan ini adalah keputusan gaya perusahaan, bukan vonis tata bahasa Indonesia umum.
 
-**Maksud:** Mencegah ambiguitas seperti "uji", "kunci", "akses" yang dipakai bergantian sebagai nomina/verba.
+**Maksud:** Mencegah ambiguitas seperti "uji", "kunci", "akses" yang dipakai bergantian sebagai nomina/verba dalam satu manual. Bahasa Indonesia umum mengizinkan alih fungsi; PBIT-S membatasinya agar konsisten.
 
 **Contoh:**
 
@@ -153,9 +154,9 @@ Bagian terbesar. Mengatur kata apa yang boleh dipakai.
 
 Daftar alih fungsi yang sering salah dalam Bahasa Indonesia:
 
-| Kata | Disetujui sebagai | Dilarang sebagai | Perbaikan |
+| Kata | Ditetapkan sebagai (contoh kebijakan) | Hindari dalam manual ini | Perbaikan |
 |---|---|---|---|
-| uji | nomina | verba | "Uji lampu" → "Lakukan uji pada lampu" |
+| uji | nomina (keputusan gaya; bukan larangan bahasa umum) | verba bergantian | "Uji lampu" → "Lakukan uji pada lampu" (atau tetapkan `uji` sebagai verba dan pakai konsisten — pilih satu) |
 | lem | nomina teknis (bahan) | verba | "Lem panel" → "Rekatkan panel dengan lem" |
 | bor | nomina teknis (perkakas) | verba | "Bor lubang" → "Buat lubang dengan bor" |
 | las | nomina/verba teknis sesuai kategori manufaktur | nomina umum bebas | Tetapkan satu peran di daftar istilah |
@@ -348,18 +349,18 @@ Bagian paling ketat.
 - SALAH: "Memasang-kan penutup" (bentuk tidak baku untuk makna yang sama)
 - BENAR: "Pasang penutup."
 
-### PBIT-3.2 — Gunakan hanya bentuk dan kala sederhana
+### PBIT-3.2 — Gunakan hanya bentuk sederhana (tanpa tumpukan penanda aspek)
 
-**Aturan (adaptasi tenses Inggris):** Hanya boleh:
+**Aturan (adaptasi tenses Inggris — bukan padanan satu-per-satu):** Bahasa Indonesia tidak punya konjugasi kala. Gunakan pola sederhana berikut:
 
 - infinitif/dasar: "untuk memasang"
 - imperatif/perintah: "Pasang..."
-- kini sederhana: "Pompa memasok bahan bakar."
-- lampau sederhana: "Pompa sudah memasok..." / "Pompa telah memasok..."
-- depan sederhana: "Pompa akan memasok..."
+- pernyataan umum/kini: "Pompa memasok bahan bakar."
+- selesai: "Pompa sudah memasok..." / "Pompa telah memasok..." (`sudah/telah` adalah penanda aspek selesai, bukan otomatis waktu lampau — pakai hanya untuk aksi yang selesai)
+- depan: "Pompa akan memasok..."
 - partisip sebagai adjektiva: "katup yang terkunci", "permukaan yang dicat"
 
-Dilarang: kala sempurna berlapis, progresif berlapis, konstruksi multi-bantu (`telah sedang akan`, `sudah pernah telah`, `sedang dilakukan sedang`).
+Dilarang: tumpukan penanda aspek/modal (`telah sedang akan`, `sudah pernah telah`, `sedang dilakukan sedang`).
 
 **Contoh:**
 
@@ -388,9 +389,9 @@ Hanya gunakan partisip yang (atau makna adjektivanya) ada di kamus/daftar istila
 
 Pengecualian sempit: partisip murni sebagai adjektiva (3.3) dan pasif deskriptif dengan agen tak diketahui (3.6) tetap boleh.
 
-### PBIT-3.5 — Gunakan bentuk `me-/-kan/-i/ber-/sedang` hanya sebagai nomina teknis atau pewatas
+### PBIT-3.5 — Batasi progresif, klausa menggantung, dan nominalisasi kabur
 
-**Aturan (adaptasi larangan `-ing`):** Bahasa Indonesia tidak punya `-ing`, tetapi punya masalah sepadan: nominalisasi `peng-/-an` dan klausa `yang sedang...` yang menggantung.
+**Aturan (adaptasi larangan `-ing` — bukan larangan imbuhan):** Imbuhan `me-/-kan/-i/ber-` adalah pembentukan verba normal bahasa Indonesia dan tetap boleh dipakai untuk verba biasa (`memasang, mengencangkan, membersihkan`). Yang dibatasi hanya tiga pola yang menimbulkan ambiguitas, sejajar masalah `-ing` dalam STE: nominalisasi `peng-/-an` yang kabur dan klausa `yang sedang...` yang menggantung.
 
 Dilarang:
 
@@ -432,10 +433,10 @@ Apakah ini deskripsi dan pelaku benar-benar tidak diketahui? → Boleh pasif sek
 - SALAH: "Berikan indikasi tekanan." / "Lakukan pelepasan panel."
 - BENAR: "Tunjukkan tekanan." / "Lepas panel."
 
-Jika kata tidak disetujui sebagai verba, jangan paksa. Restrukturisasi dengan `lakukan + nomina`:
+Jika perusahaan menetapkan kata hanya sebagai nomina (keputusan gaya, contoh sejajar STE `CHECK (n)`), jangan paksa sebagai verba. Restrukturisasi dengan `lakukan + nomina` — tetapi tetapkan satu pola dan pakai konsisten:
 
-- `uji` hanya nomina → "Lakukan uji pada lampu." (bukan "Uji lampu.")
-- `cek` hanya nomina (sejajar STE `CHECK (n)`) → "Lakukan cek pada tekanan." (bukan "Cek tekanan.")
+- Jika `uji` ditetapkan hanya nomina → "Lakukan uji pada lampu." (Pola alternatif "Uji lampu." sah dalam bahasa umum; pilih satu pola per manual.)
+- Jika `cek` ditetapkan hanya nomina → "Lakukan cek pada tekanan." (Pola alternatif "Periksa tekanan." sering lebih ringkas — pilih satu.)
 
 ---
 
@@ -486,14 +487,15 @@ Jika kata tidak disetujui sebagai verba, jangan paksa. Restrukturisasi dengan `l
 
 Jangan menumpuk penghubung bertingkat dalam satu kalimat.
 
-### PBIT-4.5 — Gunakan penentu sebelum nomina bila perlu
+### PBIT-4.5 — Gunakan penentu bila perlu untuk kejelasan (bukan wajib selalu)
 
-**Aturan (adaptasi articles `a/an/the/this/these`):** Gunakan `sebuah/seorang/para/si/sang/ini/itu/tersebut` untuk menunjukkan posisi nomina. Jangan hilangkan untuk memendekkan. Jangan pakai penentu untuk pernyataan umum/konsep abstrak. Jangan pakai penentu definit sebelum nomina + identifikasi alfanumerik (karena sudah nama khas).
+**Aturan (adaptasi articles `a/an/the/this/these` — bukan padanan wajib):** Bahasa Indonesia mengizinkan nomina tanpa penentu. Tambahkan `sebuah/seorang/para/ini/itu/tersebut` hanya bila tanpanya rujukan kabur. Jangan pakai penentu untuk pernyataan umum/konsep abstrak. Jangan pakai penentu definit sebelum nomina + identifikasi alfanumerik (karena sudah nama khas).
 
 **Contoh:**
 
-- SALAH: "Pasang baut pada lubang." (baut mana? lubang mana?)
-- BENAR: "Pasang baut pada lubang itu." / "Pasang sebuah baut pada sebuah lubang." / "Pasang baut tersebut pada lubang 5."
+- Kurang jelas (bila konteks tidak menunjuk baut/lubang tertentu): "Pasang baut pada lubang."
+- BENAR bila perlu spesifikasi: "Pasang baut pada lubang itu." / "Pasang sebuah baut pada sebuah lubang." / "Pasang baut tersebut pada lubang 5."
+- BENAR tanpa penentu bila konteks sudah jelas atau pernyataan umum: "Pasang baut." (bila hanya ada satu baut dalam langkah itu) / "Oli melumasi mesin."
 
 - Pernyataan umum tanpa penentu: "Oli melumasi mesin." (BENAR umum)
 - Nama khas tanpa penentu definit: "Buka Panel 5." (BENAR, bukan "Buka panel 5 itu" jika `Panel 5` sudah nama resmi; bukan "Buka panelnya 5").
@@ -553,9 +555,9 @@ Cara hitung mengikuti Bagian 8.
 - SALAH: "Sebelum lepas penutup matikan mesin"
 - BENAR: "Sebelum Anda melepas penutup, matikan mesin."
 
-### PBIT-5.5 — Catatan hanya untuk informasi, bukan instruksi
+### PBIT-5.5 — Catatan hanya untuk informasi pendukung, bukan instruksi
 
-**Aturan:** `Catatan:` berisi info deskriptif pembantu, bukan perintah/syarat/batas. Jangan pakai imperatif dalam catatan. Jangan taruh hasil/toleransi/batas di catatan (taruh di langkah kerja). Tiap kalimat catatan maksimal 25 kata.
+**Aturan:** `Catatan:` berisi info deskriptif pembantu (konteks, keberlakuan, penjelasan), bukan perintah/syarat/batas yang menentukan pelaksanaan. Jangan pakai imperatif dalam catatan. Hasil, toleransi, dan batas yang harus dipatuhi ditaruh di langkah kerja. Info keberlakuan seperti contoh di bawah boleh di catatan karena tidak memerintah, tetapi syarat eksekusi ("jangan lanjut sebelum...") wajib di langkah. Tiap kalimat catatan maksimal 25 kata.
 
 **Contoh SALAH:**
 
@@ -662,9 +664,9 @@ Tanpa penjelasan (kurang baik): "PERINGATAN: Pakai pelindung mata."
 
 ### PBIT-8.2 — Gunakan tanda hubung (-) untuk kata yang terkait erat
 
-**Aturan (adaptasi):** Gunakan untuk: adjektiva multi-kata sebelum nomina, pecahan/angka dua kata, istilah bentuk huruf/angka + nomina, verba majemuk dari nomina, awalan vokal + kata dasar vokal (sesuai EYD).
+**Aturan (adaptasi):** Ikuti EYD V. Tanda hubung dipakai antara lain untuk: bentuk ulang (`anak-anak`), gabungan kata yang menimbulkan salah pengertian (`buku-sejarah baru` vs `buku sejarah-baru`), merangkai unsur berbeda (huruf kapital/nonkapital, huruf/angka: `se-Indonesia`, `peringkat ke-2`), dan menandai dua unsur satu kesatuan (`suami-istri`). Bentuk terikat asing/ilmiah umumnya ditulis serangkai tanpa hubung (`nonaktif`, `antikorosi`, `pas casarjana` → `pascasarjana`, `infrastruktur`).
 
-**Contoh BENAR:** "pompa bertekanan-tinggi" (jika ditetapkan), "seperempat-putaran", "bentuk-U", "nonaktif" (tanpa hubung sesuai KBBI kini) vs "non-aktif" lama — ikuti KBBI terbaru. "anti-korosi" jika vokal bertemu vokal sesuai EYD.
+**Contoh BENAR:** "bentuk-U", "seperempat-putaran" (bila menimbulkan salah baca tanpa hubung), "antikorosi" (serangkai, bukan "anti-korosi"), "nonaktif" (serangkai, bukan "non-aktif").
 
 Jangan pakai tanda hubung untuk menggabung frasa 5 kata agar lolos hitungan (lihat 8.7).
 
@@ -931,9 +933,9 @@ Daftar hanya contoh. Jika ada verba kamus yang cukup jelas, pakai verba kamus.
 
 ## Contoh lengkap sebelum–sesudah
 
-### A. Prosedur: ganti saringan oli
+### A. Prosedur: ganti saringan oli (contoh hipotetis — nilai di bawah diasumsikan ada di sumber)
 
-**SEBELUM (tidak terkendali, 1 paragraf panjang, pasif, sinonim campur):**
+**SEBELUM (tidak terkendali, 1 paragraf panjang, pasif, sinonim campur; sumber hipotetis memuat nilai 20 Nm dan kondisi 20 °C):**
 
 "Sebelum melakukan penggantian saringan oli, utilisasi kunci yang ada untuk membuka cover penutupnya, setelah itu saringannya dilepas, sebelum pemasangan yang baru, optimalisasi pembersihan dilakukan secara tepat guna, utilisasi oli baru untuk melumasi seal-nya, jangan lupa untuk tidak terlalu kencang mengencangkannya karena dapat menyebabkan kerusakan yang tidak diinginkan dan berbahaya bagi operator jika tidak berhati-hati."
 
@@ -953,9 +955,9 @@ Masalah: `utilisasi, cover, nya` ambigu, pasif, nominalisasi (`melakukan penggan
 
 Catatan: Nilai 20 Nm berlaku untuk suhu 20 °C."
 
-Tiap kalimat ≤20 kata, satu perintah per langkah, aktif, istilah konsisten (`saringan oli, penutup depan, segel`), peringatan di depan dengan akibat spesifik.
+Tiap kalimat ≤20 kata, satu perintah per langkah, aktif, istilah konsisten (`saringan oli, penutup depan, segel`), peringatan di depan dengan akibat spesifik. Nilai 20 Nm dan 20 °C dipertahankan dari sumber hipotetis — bukan tambahan editor.
 
-### B. Deskripsi: sistem bahan bakar (satu topik per paragraf)
+### B. Deskripsi: sistem bahan bakar (satu topik per paragraf; contoh hipotetis — 300 kPa/250 kPa diasumsikan ada di sumber)
 
 **SEBELUM:**
 
@@ -967,7 +969,7 @@ Tiap kalimat ≤20 kata, satu perintah per langkah, aktif, istilah konsisten (`s
 
 Pompa utama berada di ruang mesin. Pompa utama memberi tekanan 300 kPa. Pengukur tekanan menunjukkan tekanan. Jika tekanan di bawah 250 kPa, sistem memberi peringatan."
 
-Dua paragraf, tiap ≤6 kalimat, tiap kalimat ≤25 kata, satu subjek per kalimat, kata kunci diulang (`sistem, pompa utama, pompa cadangan, tekanan`).
+Dua paragraf, tiap ≤6 kalimat, tiap kalimat ≤25 kata, satu subjek per kalimat, kata kunci diulang (`sistem, pompa utama, pompa cadangan, tekanan`). Angka tekanan dipertahankan dari sumber hipotetis.
 
 ### C. Keselamatan: minyak panas
 
@@ -1114,11 +1116,13 @@ Perintah di depan, label benar (risiko manusia = PERINGATAN), akibat spesifik.
 
 Daftar awal untuk Kamus Inti perusahaan. Tandai `DISETUJUI (HURUF KAPITAL)` vs `tidak disetujui (huruf kecil)`. Kolom kanan saran pengganti.
 
-**Disetujui (contoh):** AKAN, ADALAH, AKIBATNYA, AMANKAN, ATUR, BERSIHKAN, BUKA, CETAK, DAPATKAN, DENGAN, GANTI, GUNAKAN, HENTIKAN, KENCANGKAN, LEPAS, LAKUKAN, MATIKAN, MULAI, NYALAKAN, OLESkan → OLESKAN, PASANG, PASTIKAN, PATUHI, PERIKSA, SIMPAN, TUTUP, TAMBAH, TEMUKAN, TUNJUKKAN, UNDUH, UNGGAH, AKSES (n), UJI (n), CEK (n — pilih satu pola dengan PERIKSA).
+**Disetujui (contoh; kata fungsi baku mengikuti KBBI/EYD dan tidak wajib didaftar satu per satu):** AKAN, ADALAH, AKIBATNYA, AMANKAN, ATUR, BERSIHKAN, BUKA, CETAK, DAPATKAN, DENGAN, GANTI, GUNAKAN, HENTIKAN, KENCANGKAN, LEPAS, LAKUKAN, MATIKAN, MULAI, NYALAKAN, OLESKAN, PASANG, PASTIKAN, PATUHI, PERIKSA, SIMPAN, TUTUP, TAMBAH, TEMUKAN, TUNJUKKAN, UNDUH, UNGGAH, AKSES (n), UJI (n), CEK (n — pilih satu pola dengan PERIKSA). Kata fungsi seperti `tidak, yang, untuk, pada, dalam, bahwa, jangan, dan` sah per EYD walau tidak tercantum di daftar awal ini.
 
-**Tidak disetujui → pengganti:**
+**Tidak disetujui → pengganti (hanya bila sinonim dalam konteks; jika makna berbeda, daftarkan sebagai istilah teknis):**
 
-- inisiasi, inisialisasi (v) → MULAI (v)
+- inisiasi (v, makna mulai) → MULAI (v). `inisialisasi` sebagai penyiapan keadaan awal (mis. basis data) bukan sinonim mulai — daftarkan sebagai istilah teknis bila perlu, jangan paksa diganti.
+- utilisasi, manfaatkan, pergunakan (v, makna pakai) → GUNAKAN (v)
+- `nonaktifkan` vs `matikan`, `hidupkan` vs `nyalakan`: bukan sinonim universal. `nonaktifkan akun` ≠ `matikan mesin`. Tetapkan satu pasangan per konteks dan pakai konsisten; jangan tukar lintas konteks.
 - utilisasi, manfaatkan, pergunakan (v) → GUNAKAN (v)
 - eksekusi, laksanakan (v kabur) → LAKUKAN + nomina spesifik
 - penerimaan (n) → TERIMA (v): "Sebelum Anda menerima..."

@@ -48,7 +48,7 @@ HARUS,disetujui,aux,Kewajiban kritis saja,,Anda harus memakai pelindung mata seb
 PERINGATAN,disetujui,n,Label risiko manusia,,PERINGATAN: Jangan sentuh minyak panas,PERHATIAN untuk risiko mati
 PERHATIAN,disetujui,n,Label risiko benda,,PERHATIAN: Jangan gores panel,PERINGATAN untuk gores panel
 CATATAN,disetujui,n,Info deskriptif,,Catatan: Nilai 20 Nm berlaku untuk suhu 20 C,Catatan: Kencangkan baut
-inisialisasi,tidak disetujui,v,,MULAI,Mulai unit,Inisialisasi unit
+inisialisasi,tidak disetujui,v,,MULAI (hanya bila makna mulai; penyiapan awal = istilah teknis),Mulai unit (bila makna mulai),Inisialisasi unit (bila makna mulai)
 utilisasi,tidak disetujui,v,,GUNAKAN,Gunakan kunci,Utilisasi kunci
 pergunakan,tidak disetujui,v,,GUNAKAN,Gunakan kunci,Pergunakan kunci
 manfaatkan,tidak disetujui,v,,GUNAKAN,Gunakan metode,Manfaatkan metode
@@ -70,7 +70,7 @@ pengecekan,tidak disetujui,n,,PERIKSA (v),Periksa tekanan,melakukan pengecekan
 pemasangan,tidak disetujui,n,,PASANG (v),Pasang penutup,melakukan pemasangan
 optimal,tidak disetujui,adj,,beri angka/spesifikasi,Tekanan 300 kPa,kinerja optimal
 tepat guna,tidak disetujui,adv,,beri angka/cara,Bersihkan hingga bebas debu,secara tepat guna
-secukupnya,tidak disetujui,adv,,beri jumlah+satuan,Tambah 2 liter Sampai secukupnya
+secukupnya,tidak disetujui,adv,,beri jumlah+satuan,Tambah 2 liter,Tambah sampai secukupnya
 segera,tidak disetujui,adv kabur,,beri waktu,Dalam 5 menit,segera mungkin tanpa angka
 swap,tidak disetujui,v,,GANTI,Ganti unit,di-swap
 jumper,tidak disetujui,v,,SAMBUNG,Sambung dengan kabel pelintas,di-jumper
@@ -80,8 +80,8 @@ upload,tidak disetujui,v,,UNGGAH,Unggah berkas,di-upload
 download,tidak disetujui,v,,UNDUH,Unduh berkas,di-download
 off-kan,tidak disetujui,v,,MATIKAN,Matikan mesin,Off-kan mesin
 on-kan,tidak disetujui,v,,NYALAKAN,Nyalakan pompa,On-kan pompa
-hidupkan,tidak disetujui,v,,NYALAKAN (konsisten),Nyalakan pompa,Nyalakan/Hidupkan bergantian
-nonaktifkan,tidak disetujui,v,,MATIKAN (konsisten),Matikan mesin,Matikan/Nonaktifkan bergantian
+hidupkan,tidak disetujui,v,,NYALAKAN (satu pola per konteks; nonaktifkan akun beda konteks),Nyalakan pompa (konteks perangkat),Nyalakan/Hidupkan bergantian
+nonaktifkan,tidak disetujui,v,,MATIKAN (satu pola per konteks; nonaktifkan akun beda konteks),Matikan mesin (konteks perangkat),Matikan/Nonaktifkan bergantian
 dgn,tidak disetujui,prep,,DENGAN,dengan,dgn
 tdk,tidak disetujui,adv,,TIDAK,tidak,tdk
 yg,tidak disetujui,pron,,YANG,yang,yg
@@ -95,3 +95,13 @@ standard,tidak disetujui,n,,STANDAR,standar,standard
 kwalitas,tidak disetujui,n,,KUALITAS,kualitas,kwalitas
 angkat keluar,tidak disetujui,v,,LEPAS,Lepas panel,Angkat keluar panel
 cabut keluar,tidak disetujui,v,,LEPAS,Lepas kabel,Cabut keluar kabel
+TIDAK,disetujui,adv,Negasi,,Tidak ada kebocoran,
+YANG,disetujui,pron,Penghubung relatif,,Penutup yang terkunci,
+UNTUK,disetujui,prep,Tujuan,,Kunci untuk penutup,
+PADA,disetujui,prep,Lokasi/sasaran,,Oleskan oli pada baut,
+DALAM,disetujui,prep,Wadah/lingkup,,Periksa tekanan dalam mesin,
+BAHWA,disetujui,konj,Penghubung klausa,,Pastikan bahwa penutup terkunci,
+JANGAN,disetujui,adv,Larangan,,Jangan sentuh minyak panas,
+GANTI,disetujui,v,Mengganti dengan yang lain,,Ganti saringan,
+SAMBUNG,disetujui,v,Menyambung,,Sambung kabel dengan kabel pelintas,
+TIDAK-DIUBAH,disetujui,info,Kata fungsi baku lain (dan atau di ke dari sebagai oleh dengan telah sudah akan dapat harus bisa ini itu tersebut sebuah) sah per KBBI/EYD walau tidak tercantum satu per satu,,Lihat EYD V,

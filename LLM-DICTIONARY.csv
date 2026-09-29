@@ -1,0 +1,97 @@
+kata,status,kelas,makna_disetujui,pengganti,contoh_benar,contoh_salah
+TERIMA,disetujui,v,Mendapat sesuatu yang diberi,,Sebelum Anda menerima unit lakukan uji yang ditetapkan,Sebelum penerimaan unit mulai uji
+AKSES,disetujui,n,Kemampuan masuk atau mendekati,,Dapatkan akses ke akumulator,Akses akumulator
+BUKA,disetujui,v,Memindah agar bahan bisa lewat/masuk,,Buka katup,Buka jalan
+TUTUP,disetujui,v,Menggerakkan agar bahan tidak keluar/masuk; menutup sirkuit,,Tutup pintu. Tutup pemutus sirkuit,Tutup rapat -> Akhiri rapat
+MULAI,disetujui,v,Memulai aksi/proses,,Mulai pompa,Inisiasi pompa
+GUNAKAN,disetujui,v,Memakai alat/metode,,Gunakan kunci pas,Utilisasi kunci pas
+PERIKSA,disetujui,v,Melihat teliti untuk pastikan kondisi,,Periksa tekanan,Cek tekanan (jika cek hanya nomina)
+LAKUKAN,disetujui,v,Melaksanakan aksi + nomina spesifik,,Lakukan uji pada lampu,Lakukan pengencangan -> Kencangkan
+PATUHI,disetujui,v,Taat pada aturan,,Patuhi instruksi,Ikuti instruksi (makna patuhi)
+IKUTI,disetujui,v,Datang setelah,,Ikuti kabel ke pompa,Ikuti instruksi -> Patuhi instruksi
+TEMUKAN,disetujui,v,Melihat yang dicari/tidak terduga,,Jika Anda menemukan kabel putus ganti kabel,Jika Anda mendeteksi kabel putus (prosedur)
+TUNJUKKAN,disetujui,v,Memberi info visual/angka,,Tunjukkan tekanan,Berikan indikasi tekanan
+LEPAS,disetujui,v,Memindah lepas dari posisi,,Lepas penutup,Angkat keluar panel
+PASANG,disetujui,v,Menempatkan pada posisi,,Pasang penutup,Melakukan pemasangan
+KENCANGKAN,disetujui,v,Membuat kencang hingga nilai,,Kencangkan baut hingga 20 Nm,Melakukan pengencangan
+BERSIHKAN,disetujui,v,Membuat bebas kotoran,,Bersihkan dudukan,Bersihkan secara tepat guna
+OLESKAN,disetujui,v,Menaruh lapisan tipis,,Oleskan oli pada baut,Oli baut
+MATIKAN,disetujui,v,Menghentikan operasi/listrik,,Matikan mesin,Off-kan mesin
+NYALAKAN,disetujui,v,Memulai operasi/listrik,,Nyalakan pompa,Hidupkan pompa (jika tidak konsisten)
+SIMPAN,disetujui,v,Menyimpan berkas/data,,Simpan berkas,Save berkas / Di-save
+CETAK,disetujui,v,Mencetak,,Cetak berkas,Print berkas
+UNDUH,disetujui,v,Mengambil data dari server,,Unduh berkas,Download berkas
+UNGGAH,disetujui,v,Mengirim data ke server,,Unggah berkas,Upload berkas
+MASUKKAN,disetujui,v,Memasukkan data (komputer),,Masukkan kata sandi,Jangan masuk ke area uji -> Jangan pergi ke area uji
+KLIK,disetujui,v,Menekan tombol tetikus (komputer),,Klik menu,Klik pintu
+DAPATKAN,disetujui,v,Memperoleh,,Dapatkan akses ke panel,Akses panel
+PASTIKAN,disetujui,v,Memeriksa hingga yakin,,Pastikan bahwa penutup terkunci,Pastikan penutup terkunci aman
+JATUH,disetujui,v,Bergerak ke bawah karena gravitasi,,Perkakas jatuh ke lantai,Penjualan jatuh -> Penjualan menurun
+DEKAT,disetujui,prep,Pada jarak pendek,,Jangan berdiri dekat roda pendarat,Jangan berdiri dekat waktu pendaratan
+DENGAN,disetujui,prep,Alat/cara/penyerta,,Periksa pompa dengan pengukur tekanan,pompa dengan tekanan dengan kebocoran
+ANDA,disetujui,pron,Pembaca prosedur,,Sebelum Anda melepas penutup matikan mesin,Operator/kamu bergantian
+INI,disetujui,pron+adj,Penunjuk + nomina,,Hasil ini menunjukkan kegagalan,Ini menunjukkan kegagalan
+TERSEBUT,disetujui,adj,Penunjuk definit,,Pasang baut tersebut pada lubang 5,Pasang baut pada lubang
+SEBUAH,disetujui,art,Penentu tunggal,,Pasang sebuah baut,Pasang baut (kabur)
+DAN,disetujui,konj,Penghubung setara,,Lepas dan periksa,Lepas; periksa
+TETAPI,disetujui,konj,Penghubung lawan,,Kencang tetapi bocor,
+LALU,disetujui,konj,Urutan,,Kencangkan baut. Lalu periksa tekanan,
+SEHINGGA,disetujui,konj,Akibat,,Tekanan rendah sehingga pompa berhenti,
+AKIBATNYA,disetujui,adv,Akibat,,Akibatnya pasokan tidak berhenti,
+JIKA,disetujui,konj,Syarat,,Jika tekanan rendah kencangkan baut,Kencangkan baut jika tekanan rendah
+SEBELUM,disetujui,konj,Waktu,,Sebelum Anda melepas penutup matikan mesin,Sebelum lepas penutup matikan mesin
+SETELAH,disetujui,konj,Waktu,,Setelah itu periksa tekanan,
+AKAN,disetujui,aux,Masa depan,,Pompa akan memasok,
+SUDAH,disetujui,aux,Lampau selesai,,Pompa sudah memasok,Pompa telah sedang memasok
+TELAH,disetujui,aux,Lampau formal,,Pompa telah memasok,
+HARUS,disetujui,aux,Kewajiban kritis saja,,Anda harus memakai pelindung mata sebelum menggerinda,Anda harus lepas penutup (tidak kritis)
+PERINGATAN,disetujui,n,Label risiko manusia,,PERINGATAN: Jangan sentuh minyak panas,PERHATIAN untuk risiko mati
+PERHATIAN,disetujui,n,Label risiko benda,,PERHATIAN: Jangan gores panel,PERINGATAN untuk gores panel
+CATATAN,disetujui,n,Info deskriptif,,Catatan: Nilai 20 Nm berlaku untuk suhu 20 C,Catatan: Kencangkan baut
+inisialisasi,tidak disetujui,v,,MULAI,Mulai unit,Inisialisasi unit
+utilisasi,tidak disetujui,v,,GUNAKAN,Gunakan kunci,Utilisasi kunci
+pergunakan,tidak disetujui,v,,GUNAKAN,Gunakan kunci,Pergunakan kunci
+manfaatkan,tidak disetujui,v,,GUNAKAN,Gunakan metode,Manfaatkan metode
+awali,tidak disetujui,v,,MULAI,Mulai pompa,Awali pompa
+cetuskan,tidak disetujui,v,,MULAI,Mulai proses,Cetuskan proses
+penerimaan,tidak disetujui,n,,TERIMA (v),Sebelum Anda menerima unit, penerimaan unit
+dapat diakses,tidak disetujui,adj,,AKSES (n),sampai Anda mendapat akses,dapat diakses
+cek,tidak disetujui,v,,PERIKSA (v) atau Lakukan cek (n),Periksa tekanan / Lakukan cek pada tekanan,Cek tekanan (jika cek hanya nomina)
+kontrol,tidak disetujui,v,,PERIKSA,Ganti bila makna periksa,Kontrol tekanan bergantian
+uji,tidak disetujui,v,,Lakukan uji (n),Lakukan uji pada lampu,Uji lampu
+akses,tidak disetujui,v,,BUKA / DAPATKAN AKSES,Buka menu / Dapatkan akses,Akses menu
+lem,tidak disetujui,v,,REKATKAN + lem (n),Rekatkan panel dengan lem,Lem panel
+bor,tidak disetujui,v,,BUAT LUBANG + bor (n),Buat lubang dengan bor,Bor lubang
+oli,tidak disetujui,v,,OLESKAN + oli (n),Oleskan oli pada baut,Oli baut
+gemukkan,tidak disetujui,v,,OLESKAN + gemuk (n),Oleskan gemuk,Gemukkan baut
+pengencangan,tidak disetujui,n,,KENCANGKAN (v),Kencangkan baut,melakukan pengencangan
+pembersihan,tidak disetujui,n,,BERSIHKAN (v),Bersihkan dudukan,melakukan pembersihan
+pengecekan,tidak disetujui,n,,PERIKSA (v),Periksa tekanan,melakukan pengecekan
+pemasangan,tidak disetujui,n,,PASANG (v),Pasang penutup,melakukan pemasangan
+optimal,tidak disetujui,adj,,beri angka/spesifikasi,Tekanan 300 kPa,kinerja optimal
+tepat guna,tidak disetujui,adv,,beri angka/cara,Bersihkan hingga bebas debu,secara tepat guna
+secukupnya,tidak disetujui,adv,,beri jumlah+satuan,Tambah 2 liter Sampai secukupnya
+segera,tidak disetujui,adv kabur,,beri waktu,Dalam 5 menit,segera mungkin tanpa angka
+swap,tidak disetujui,v,,GANTI,Ganti unit,di-swap
+jumper,tidak disetujui,v,,SAMBUNG,Sambung dengan kabel pelintas,di-jumper
+save,tidak disetujui,v,,SIMPAN,Simpan berkas,di-save
+print,tidak disetujui,v,,CETAK,Cetak berkas,di-print
+upload,tidak disetujui,v,,UNGGAH,Unggah berkas,di-upload
+download,tidak disetujui,v,,UNDUH,Unduh berkas,di-download
+off-kan,tidak disetujui,v,,MATIKAN,Matikan mesin,Off-kan mesin
+on-kan,tidak disetujui,v,,NYALAKAN,Nyalakan pompa,On-kan pompa
+hidupkan,tidak disetujui,v,,NYALAKAN (konsisten),Nyalakan pompa,Nyalakan/Hidupkan bergantian
+nonaktifkan,tidak disetujui,v,,MATIKAN (konsisten),Matikan mesin,Matikan/Nonaktifkan bergantian
+dgn,tidak disetujui,prep,,DENGAN,dengan,dgn
+tdk,tidak disetujui,adv,,TIDAK,tidak,tdk
+yg,tidak disetujui,pron,,YANG,yang,yg
+sbg,tidak disetujui,prep,,SEBAGAI,sebagai,sbg
+utk,tidak disetujui,prep,,UNTUK,untuk,utk
+pd,tidak disetujui,prep,,PADA,pada,pd
+dlm,tidak disetujui,prep,,DALAM,dalam,dlm
+tsb,tidak disetujui,adj,,TERSEBUT,tersebut,tsb
+s/d,tidak disetujui,prep,,SAMPAI DENGAN,sampai dengan,s/d
+standard,tidak disetujui,n,,STANDAR,standar,standard
+kwalitas,tidak disetujui,n,,KUALITAS,kualitas,kwalitas
+angkat keluar,tidak disetujui,v,,LEPAS,Lepas panel,Angkat keluar panel
+cabut keluar,tidak disetujui,v,,LEPAS,Lepas kabel,Cabut keluar kabel

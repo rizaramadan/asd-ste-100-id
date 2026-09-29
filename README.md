@@ -11,7 +11,7 @@ untuk penulisan teknis dalam **Bahasa Indonesia** yang jelas, aman, dan mudah di
 
 ### Versi lengkap (untuk manusia)
 
-- **`PEDOMAN-PBIT-S.md`** — Pedoman Bahasa Indonesia Teknis Sederhana (PBIT-S).
+- **[`PEDOMAN-PBIT-S.md`](./PEDOMAN-PBIT-S.md)** — Pedoman Bahasa Indonesia Teknis Sederhana (PBIT-S).
   Mencakup seluruh 53 aturan dalam 9 seksi, kamus terkendali, 22 kategori nomina teknis,
   4 kategori verba teknis, contoh sebelum–sesudah, daftar periksa, dan template.
 
@@ -19,16 +19,16 @@ untuk penulisan teknis dalam **Bahasa Indonesia** yang jelas, aman, dan mudah di
 
 | File | Fungsi | Ukuran |
 |---|---|---|
-| `LLM-SYSTEM-PROMPT.md` | Tempel sebagai system prompt (~450 kata) | ~3 KB |
-| `LLM-RULES.json` | 57 entri mesin (53 aturan + 4 GR): id, severity, rule, check, fix, contoh | ~29 KB |
-| `LLM-DICTIONARY.csv` | 96 baris kamus (49 disetujui, 47 tidak): kata, kelas, makna, pengganti | ~8 KB |
-| `LLM-CHECKLIST.md` | Rubrik LOLOS/GAGAL + skema output JSON wajib untuk validator LLM | ~4 KB |
+| [`LLM-SYSTEM-PROMPT.md`](./LLM-SYSTEM-PROMPT.md) | Tempel sebagai system prompt (~450 kata) | ~3 KB |
+| [`LLM-RULES.json`](./LLM-RULES.json) | 57 entri mesin (53 aturan + 4 GR): id, severity, rule, check, fix, contoh | ~29 KB |
+| [`LLM-DICTIONARY.csv`](./LLM-DICTIONARY.csv) | 96 baris kamus (49 disetujui, 47 tidak): kata, kelas, makna, pengganti | ~8 KB |
+| [`LLM-CHECKLIST.md`](./LLM-CHECKLIST.md) | Rubrik LOLOS/GAGAL + skema output JSON wajib untuk validator LLM | ~4 KB |
 
 ## Cara pakai versi LLM
 
-1. **Tulis/periksa:** gunakan `LLM-SYSTEM-PROMPT.md` + `LLM-DICTIONARY.csv` + `LLM-CHECKLIST.md`.
-2. **RAG:** ambil per `id` dari `LLM-RULES.json` hanya aturan yang dilanggar — jangan tempel semua sekaligus.
-3. **Rujukan penuh:** `PEDOMAN-PBIT-S.md` (±8.884 kata, ~15.800 token).
+1. **Tulis/periksa:** gunakan [`LLM-SYSTEM-PROMPT.md`](./LLM-SYSTEM-PROMPT.md) + [`LLM-DICTIONARY.csv`](./LLM-DICTIONARY.csv) + [`LLM-CHECKLIST.md`](./LLM-CHECKLIST.md).
+2. **RAG:** ambil per `id` dari [`LLM-RULES.json`](./LLM-RULES.json) hanya aturan yang dilanggar — jangan tempel semua sekaligus.
+3. **Rujukan penuh:** [`PEDOMAN-PBIT-S.md`](./PEDOMAN-PBIT-S.md) (±8.884 kata, ~15.800 token).
 
 ## Sumber acuan
 

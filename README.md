@@ -53,5 +53,7 @@ Catatan kamus: kata fungsi baku (tidak, yang, untuk, pada, dalam, bahwa, jangan,
 
 ## Lisensi
 
-Konten adaptasi ini bebas dipakai untuk dokumentasi internal dan publik dengan atribusi.
-Untuk teks resmi ASD-STE100, minta salinan resmi gratis di situs ASD-STE100.
+Konten adaptasi ini dilisensikan di bawah [CC BY 4.0](LICENSE): bebas dipakai, dibagikan,
+dan diubah untuk dokumentasi internal maupun publik, dengan atribusi.
+Teks resmi ASD-STE100 tidak termasuk dan tidak dilisensikan ulang di sini;
+minta salinan resmi gratis di situs ASD-STE100.

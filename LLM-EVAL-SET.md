@@ -26,7 +26,7 @@ Lulus bila: `tidak, bahwa, Anda` tidak ditandai sebagai PBIT-1.1; verdict LOLOS 
 
 ### E04 — Imbuhan normal bukan pelanggaran (false positive)
 Input: "Teknisi memasang penutup. Pompa memasok bahan bakar."
-Lulus bila: `memasang/memasonsok` tidak ditandai PBIT-3.5; kalimat aktif dikenali benar.
+Lulus bila: `memasang/memasok` tidak ditandai PBIT-3.5; kalimat aktif dikenali benar.
 
 ### E05 — Inisialisasi spesifik dipertahankan (makna vs konsistensi)
 Input: "Inisialisasi basis data sebelum Anda memulai layanan."

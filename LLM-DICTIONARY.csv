@@ -8,7 +8,7 @@ GUNAKAN,disetujui,v,Memakai alat/metode,,Gunakan kunci pas,Utilisasi kunci pas
 PERIKSA,disetujui,v,Melihat teliti untuk pastikan kondisi,,Periksa tekanan,Cek tekanan (jika cek hanya nomina)
 LAKUKAN,disetujui,v,Melaksanakan aksi + nomina spesifik,,Lakukan uji pada lampu,Lakukan pengencangan -> Kencangkan
 PATUHI,disetujui,v,Taat pada aturan,,Patuhi instruksi,Ikuti instruksi (makna patuhi)
-IKUTI,disetujui,v,Datang setelah,,Ikuti kabel ke pompa,Ikuti instruksi -> Patuhi instruksi
+IKUTI,disetujui,v,Datang atau bergerak setelah (bukan patuhi),,Ikuti kabel ke pompa,Ikuti instruksi -> Patuhi instruksi
 TEMUKAN,disetujui,v,Melihat yang dicari/tidak terduga,,Jika Anda menemukan kabel putus ganti kabel,Jika Anda mendeteksi kabel putus (prosedur)
 TUNJUKKAN,disetujui,v,Memberi info visual/angka,,Tunjukkan tekanan,Berikan indikasi tekanan
 LEPAS,disetujui,v,Memindah lepas dari posisi,,Lepas penutup,Angkat keluar panel
